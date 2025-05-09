@@ -11,7 +11,7 @@
 
 - ### **Generates a random hilarious meme for you 😂** 
 
-
+<br/>
 
 ## Technologies used 🛠️
 
