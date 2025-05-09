@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Abhishek Gurung</title>
+    <meta name="description" content="Abhishek Gurung Portfolio" />
+
+    <link rel="stylesheet" href="css/style.css" />
+	<script>
+		window.onload=function(){ get_random_image(); }
+            const image_array = [
+  'memes/img1.jpg',
+  'memes/img2.jpg',
+  'memes/img3.jpg',
+  'memes/img4.jpg',
+  'memes/img5.jpg',
+  'memes/img6.jpg',
+  'memes/img7.jpg'
+];
+
+function get_random_image() {
+  const random_index = Math.floor(Math.random() * image_array.length);
+  const selected_image = image_array[random_index];
+  document.getElementById('image_shower').src = `./${selected_image}`;
+}
+        </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__content">
+        <div class="header__logo-container">
+          <div class="header__logo-img-cont">
+            <img
+              src="./assets/png/meme-logo.png"
+              alt="Meme Logo Image"
+              class="header__logo-img"
+            />
+          </div>
+          <span class="header__logo-sub">Meme Generator</span>
+        </div>
+        <div class="header__main">
+          <!--ul class="header__links">
+            <li class="header__link-wrapper">
+              <a href="./index.html" class="header__link"> Home </a>
+            </li>
+            <li class="header__link-wrapper">
+              <a href="./index.html#about" class="header__link">About </a>
+            </li>
+            <li class="header__link-wrapper">
+              <a href="./index.html#projects" class="header__link">
+                Projects
+              </a>
+            </li>
+            <li class="header__link-wrapper">
+              <a href="./index.html#contact" class="header__link"> Contact </a>
+            </li>
+          </ul-->
+          
+        </div>
+      </div>
+      
+    </header>
+    <section class="home-hero">
+      <div class="home-hero__content">
+	  
+        <h1 class="heading-primary">Your Meme:</h1>
+        <div class="home-hero__info">
+          <img id="image_shower" alt="random meme" style="display: block;  margin-left: auto;  margin-right: auto; max-width: 70%; height: auto;"/>
+        </div>
+        <div class="home-hero__cta">
+          <a href="index.html" class="btn btn--bg">refresh</a>
+        </div>
+      </div>
+      
+     
+      
+    </section>
+    <footer class="main-footer">
+      <div class="main-container">
+        <div class="main-footer__upper">
+         
+          
+          <div class="main-footer__row main-footer__row-2">
+            <h4 class="heading heading-sm text-lt">Donation</h4>
+            <p class="main-footer__short-desc">
+              <a href="https://paypal.me/abhishekgurung"> <img src="assets/svg/paypal.svg" width=80/></a>
+              <a href="assets/jpeg/qrcode.jpg"> <img src="assets/png/upi.png" width=80  style="margin-left: 50px;"/></a>
+            </p>
+          </div>
+        </div>
+
+        <!-- If you give me some credit or shoutout here by linking to my website, then it will be a big thing for me and will help me a lot :) -->
+        <div class="main-footer__lower">
+          &copy; Copyright 2025. Made by
+          <a rel="noreferrer" target="_blank" href="./index.html"
+            >Abhishek Gurung</a
+          >
+        </div>
+      </div>
+    </footer>
+
+    <script src="./index.js"></script>
+  </body>
+</html>
