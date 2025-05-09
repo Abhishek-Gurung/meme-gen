@@ -7,16 +7,10 @@
 
 <br/>
 
-## Features
+## Random Meme Generator
 
-- ### **Easy to Setup 💯** 
-- ### **Free to Use ( OpenSource ) 🥳** 
-- ### **No Additional Frameworks 🤘** 
-- ### **No Additional Libraries 🙌** 
-- ### **Multi Page 💎** 
-- ### **Fully Responsive 🚀** 
-- ### **Super Fast and Optimized for SEO ⚡** 
-- ### **Great Audits Score 🎖️** 
+- ### **Generates a random hilarious meme for you 😂** 
+
 
 
 ## Technologies used 🛠️
